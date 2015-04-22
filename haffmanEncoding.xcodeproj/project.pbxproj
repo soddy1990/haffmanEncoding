@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8483561B1AE82A79006524AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8483561A1AE82A79006524AE /* main.cpp */; };
+		848356271AE82AE3006524AE /* Decoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848356211AE82AE3006524AE /* Decoding.cpp */; };
+		848356281AE82AE3006524AE /* Encoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848356231AE82AE3006524AE /* Encoding.cpp */; };
+		848356291AE82AE3006524AE /* haffmanStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848356251AE82AE3006524AE /* haffmanStructure.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		848356171AE82A79006524AE /* haffmanEncoding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = haffmanEncoding; sourceTree = BUILT_PRODUCTS_DIR; };
 		8483561A1AE82A79006524AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		848356211AE82AE3006524AE /* Decoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decoding.cpp; sourceTree = "<group>"; };
+		848356221AE82AE3006524AE /* Decoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoding.h; sourceTree = "<group>"; };
+		848356231AE82AE3006524AE /* Encoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encoding.cpp; sourceTree = "<group>"; };
+		848356241AE82AE3006524AE /* Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encoding.h; sourceTree = "<group>"; };
+		848356251AE82AE3006524AE /* haffmanStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = haffmanStructure.cpp; sourceTree = "<group>"; };
+		848356261AE82AE3006524AE /* haffmanStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haffmanStructure.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		848356191AE82A79006524AE /* haffmanEncoding */ = {
 			isa = PBXGroup;
 			children = (
+				848356211AE82AE3006524AE /* Decoding.cpp */,
+				848356221AE82AE3006524AE /* Decoding.h */,
+				848356231AE82AE3006524AE /* Encoding.cpp */,
+				848356241AE82AE3006524AE /* Encoding.h */,
+				848356251AE82AE3006524AE /* haffmanStructure.cpp */,
+				848356261AE82AE3006524AE /* haffmanStructure.h */,
 				8483561A1AE82A79006524AE /* main.cpp */,
 			);
 			path = haffmanEncoding;
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848356271AE82AE3006524AE /* Decoding.cpp in Sources */,
+				848356281AE82AE3006524AE /* Encoding.cpp in Sources */,
 				8483561B1AE82A79006524AE /* main.cpp in Sources */,
+				848356291AE82AE3006524AE /* haffmanStructure.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
