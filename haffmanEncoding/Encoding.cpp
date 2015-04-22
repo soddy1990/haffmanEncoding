@@ -138,4 +138,4 @@ int Encoding::Encoding_main(string input_str,string output_str,BiTree &code_tree
     file_output.close();
 
     return 0;
-} 
+} 
